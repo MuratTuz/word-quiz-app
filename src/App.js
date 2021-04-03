@@ -8,6 +8,9 @@ import NextAndQuestion from "./components/nextAndQuestion";
 import Choices from "./components/choices";
 import GameStatus from "./components/gameStatus";
 
+
+import { FinishAlert } from "./services/alert-service";
+
 import data from "./data.json";
 
 
@@ -23,15 +26,19 @@ function App() {
     if (questionID !== 0) {
       setQuestion(data[questionID]);
     }
-    console.log(status);
-    console.log(question);
-  }, [question, questionID, status]);
+  }, [questionID]);
 
+
+  const handleNextQuestion = () => {
+      (questionCount > questionID + 1) 
+      ? setQuestionID(questionID+1)
+          : FinishAlert('You have finished the quiz. THANKS FOR YOUR PARTICIPATION :)))');
+  }
 
   return (
     <Container className='App'>
       <GameHeader />
-      <NextAndQuestion questionId={questionID} count={questionCount} click={setQuestionID} />
+      <NextAndQuestion questionId={questionID} count={questionCount} click={handleNextQuestion} />
       <Choices choices={question} gameStatus={status} click={setStatus} />
       <GameStatus gameStatus={status} />
     </Container>

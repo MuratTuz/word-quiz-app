@@ -1,10 +1,6 @@
 
 import { Row } from "react-bootstrap";
 
-import { FinishAlert } from "../services/alert-service";
-
-import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import '.././App.css';
 
 /**
  * 
@@ -15,15 +11,10 @@ import '.././App.css';
  */
 const NextAndQuestion = (props) => {
 
-    const handleChange = () => {
-        (props.count > props.questionId + 1) ? props.click(prevStatus => prevStatus + 1)
-            : FinishAlert('You have finished the quiz. THANKS FOR YOUR PARTICIPATION :)))');
-    }
-
     return (
         <>
             <Row className='mt-5'>
-                <button className="button button1" onClick={handleChange} >Next</button>
+                <button className="button button1" onClick={props.click} >Next</button>
             </Row>
             <Row className='mb-5'>
                 {/* props.questionId starts with 0 and coming from App component*/}

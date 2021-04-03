@@ -1,8 +1,6 @@
 
 import { Row, Col } from "react-bootstrap";
 
-import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import '.././App.css';
 
 /**
  * 

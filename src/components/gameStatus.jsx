@@ -1,8 +1,6 @@
 
 import { Row, Col } from "react-bootstrap";
 
-import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import '.././App.css';
 
 /**
  * 
@@ -15,7 +13,6 @@ const GameStatus = (props) => {
         <Row className='py-5 justify-content-center'>
             <Col md={3} >
                 <button className="button buttonStatusTrue">{`True Score  : ${props.gameStatus.true}`}</button>
-                {console.log(props.gameStatus.true)}
             </Col>
             <Col md={3} >
                 <button className="button buttonStatusFalse">{`False Score  : ${props.gameStatus.false}`}</button>
