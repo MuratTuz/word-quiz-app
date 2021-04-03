@@ -1,6 +1,8 @@
 
 import { Row } from "react-bootstrap";
 
+import { FinishAlert } from "../services/alert-service";
+
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import '.././App.css';
 
@@ -15,7 +17,7 @@ const NextAndQuestion = (props) => {
 
     const handleChange = () => {
         (props.count > props.questionId + 1) ? props.click(prevStatus => prevStatus + 1)
-            : alert('You have finished the quiz. THANKS FOR YOUR PARTICIPATION :)))');
+            : FinishAlert('You have finished the quiz. THANKS FOR YOUR PARTICIPATION :)))');
     }
 
     return (

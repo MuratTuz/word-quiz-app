@@ -1,6 +1,7 @@
 
 import { Row, Col } from "react-bootstrap";
 import { useState } from "react";
+import { InfoAlert } from "../services/alert-service";
 
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import '.././App.css';
@@ -28,7 +29,7 @@ const Choices = (props) => {
 
             setCount(props.choices.question);
         } else {
-            alert('You have already answered this question');
+            InfoAlert('You have already answered this question');
         }
 
     }
