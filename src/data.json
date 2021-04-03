@@ -1,0 +1,57 @@
+[
+    {
+        "question": 1,
+        "word": "Tag",
+        "choices": [
+            "Hour",
+            "Day",
+            "Sun",
+            "Shoe"
+        ],
+        "answer": "Day"
+    },
+    {
+        "question": 2,
+        "word": "Sonne",
+        "choices": [
+            "Soon",
+            "Summer",
+            "Some",
+            "Sun"
+        ],
+        "answer": "Sun"
+    },
+    {
+        "question": 3,
+        "word": "Stift",
+        "choices": [
+            "Pen",
+            "You",
+            "Rubber",
+            "Milk"
+        ],
+        "answer": "Pen"
+    },
+    {
+        "question": 4,
+        "word": "Geld",
+        "choices": [
+            "Honey",
+            "Money",
+            "Bread",
+            "Train"
+        ],
+        "answer": "Money"
+    },
+    {
+        "question": 5,
+        "word": "Rot",
+        "choices": [
+            "Risk",
+            "Run",
+            "Ready",
+            "Red"
+        ],
+        "answer": "Red"
+    }
+]

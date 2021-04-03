@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+  background-image: url('word-quiz-image.jpeg');
+  background-repeat:no-repeat;
+  background-size:100% 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  background-color: #ced134;
+  width: 150px;
+  border: 1px solid;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  margin: 4px 10px;
+  cursor:text;
+  transition-duration: 0.2s;
+}
+
+.button1 {
+  cursor: pointer;
+  border-radius: 12px;
+}
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.button2{
+  cursor: pointer;
+  border-radius: 12px;
+}
+.button2:hover {
+  background-color: #e43e15;
+  color: white;
+}
+
+.button3{
+background-color: rgb(128, 165, 128);
+color: black;
+}
+
+.buttonStatusTrue{
+  width: 200px;
+  background-color: rgb(133, 233, 133);
+}
+
+.buttonStatusFalse{
+  width: 200px;
+  background-color: rgb(231, 71, 71);
+}
+
+.header{
+  background-color: rgba(133, 233, 133,0.5);
+  color: black;
+  width: max-content;
+  border: 1px solid;
+}
