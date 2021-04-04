@@ -1,6 +1,6 @@
 [
     {
-        "question": 1,
+        "questionNo": 1,
         "word": "Tag",
         "choices": [
             "Hour",
@@ -11,7 +11,7 @@
         "answer": "Day"
     },
     {
-        "question": 2,
+        "questionNo": 2,
         "word": "Sonne",
         "choices": [
             "Soon",
@@ -22,7 +22,7 @@
         "answer": "Sun"
     },
     {
-        "question": 3,
+        "questionNo": 3,
         "word": "Stift",
         "choices": [
             "Pen",
@@ -33,7 +33,7 @@
         "answer": "Pen"
     },
     {
-        "question": 4,
+        "questionNo": 4,
         "word": "Geld",
         "choices": [
             "Honey",
@@ -44,7 +44,7 @@
         "answer": "Money"
     },
     {
-        "question": 5,
+        "questionNo": 5,
         "word": "Rot",
         "choices": [
             "Risk",

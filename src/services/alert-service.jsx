@@ -3,13 +3,6 @@
 import Swal from 'sweetalert2';
 
 const FinishAlert = (alertMessage) => {
-    /*Swal.fire({
-        position: 'center',
-        icon: 'success',
-        title: alertMessage,
-        showConfirmButton: false,
-        timer: 1500
-    })*/
 
     Swal.fire({
         title: alertMessage,

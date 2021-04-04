@@ -4,9 +4,8 @@ import { Row } from "react-bootstrap";
 
 /**
  * 
- * @param { {questionId:Number, count:Number, click:Function} } is an object which has questionId that indicates order of 
- * question, count that hold the length of the question array, click that is a function connected directly to 
- * parent component's (App component) setQuestionID() useState for use of stae lifting
+ * @param { {questionId:Number, click:Function} } is an object which has questionId that indicates order of 
+ * question, click that is a function connected directly to parent component's (App component) handleNextQuestion function
  * @returns two HTML button NEXT and Question number 
  */
 const NextAndQuestion = (props) => {
@@ -18,7 +17,7 @@ const NextAndQuestion = (props) => {
             </Row>
             <Row className='mb-5'>
                 {/* props.questionId starts with 0 and coming from App component*/}
-                <button className="button">{`Question : ${props.questionId + 1}`}</button>
+                <button className="button">{`Question : ${props.questionId}`}</button>
             </Row>
         </>
     )
