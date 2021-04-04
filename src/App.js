@@ -36,15 +36,16 @@ function App() {
 
   const handleAnsweredQuestion = (event) => {
 
-    // check if selection process has already rendered.
     let currentQuestion = status.trueAnswer + status.falseAnswer;
 
     if (currentQuestion < question.questionNo) {
+
       let trueResponce = status.trueAnswer + 1;
       let falseResponce = status.falseAnswer + 1;
 
       event.target.dataset.value === question.answer ? setStatus(prevStatus => ({ ...prevStatus, trueAnswer: trueResponce }))
         : setStatus(prevStatus => ({ ...prevStatus, falseAnswer: falseResponce }));
+
     } else {
       InfoAlert('You have already answered this question');
     }
