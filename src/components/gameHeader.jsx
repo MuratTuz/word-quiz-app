@@ -7,7 +7,7 @@ import { Row, Col } from "react-bootstrap";
  * @param {}  
  * @returns HTML header element
  */
-const GameHeader = () => {
+const gameHeader = () => {
 
     return (
         <Row className='justify-content-center mt-5'>
@@ -20,4 +20,4 @@ const GameHeader = () => {
     )
 }
 
-export default GameHeader;
+export default gameHeader;

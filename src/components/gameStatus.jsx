@@ -7,7 +7,7 @@ import { Row, Col } from "react-bootstrap";
  * @param {{trueAnswer:Number, falseAnswer:Number}}} an object which has two keys in order to hold the scores
  * @returns TrueScores and FalseScores HTML elements
  */
-const GameStatus = (props) => {
+const gameStatus = (props) => {
 
     return (
         <Row className='py-5 justify-content-center'>
@@ -21,4 +21,4 @@ const GameStatus = (props) => {
     )
 }
 
-export default GameStatus;
+export default gameStatus;

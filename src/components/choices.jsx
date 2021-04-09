@@ -15,7 +15,7 @@ function XList(props) {
  * connected parent App component's handleAnsweredQuestion funtion
  * @returns quiz word and choice words HTML elements as in <button> 
  */
-const Choices = (props) => {
+const choices = (props) => {
 
     return (
         <Row className='my-5'>
@@ -29,4 +29,4 @@ const Choices = (props) => {
     )
 }
 
-export default Choices;
+export default choices;

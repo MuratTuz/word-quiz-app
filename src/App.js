@@ -3,13 +3,13 @@ import './App.css';
 
 import { useState, useEffect } from "react";
 import { Container } from "react-bootstrap";
-import GameHeader from "./components/gameHeader";
-import NextAndQuestion from "./components/nextAndQuestion";
-import Choices from "./components/choices";
-import GameStatus from "./components/gameStatus";
+import GameHeader from "./components/GameHeader";
+import NextAndQuestion from "./components/NextAndQuestion";
+import Choices from "./components/Choices";
+import GameStatus from "./components/GameStatus";
 
 
-import { InfoAlert, FinishAlert } from "./services/alert-service";
+import { InfoAlert, FinishAlert } from "./services/alertService";
 
 import data from "./data.json";
 

@@ -8,7 +8,7 @@ import { Row } from "react-bootstrap";
  * question, click that is a function connected directly to parent component's (App component) handleNextQuestion function
  * @returns two HTML button NEXT and Question number 
  */
-const NextAndQuestion = (props) => {
+const nextAndQuestion = (props) => {
 
     return (
         <>
@@ -23,4 +23,4 @@ const NextAndQuestion = (props) => {
     )
 }
 
-export default NextAndQuestion;
+export default nextAndQuestion;
